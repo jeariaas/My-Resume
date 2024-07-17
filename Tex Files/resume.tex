@@ -1,0 +1,215 @@
+
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Jesus Arias} \\ \vspace{1pt}
+    \small 480-939-1780 $|$ \href{mailto:x@x.com}{\underline{jeariaas@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/arias-jesus}} $|$
+    \href{https://github.com/...}{\underline{github.com/jearias}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {The University of Arizona}{Aug. 2019 -- May 2023}
+      {Bachelor of Science in Electrical and Computer Engineering, Minor in Mathematics}{Tucson, AZ}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Computer Reliability Engineer}{Jun. 2023 -- Present}
+      {Microchip Technology Inc.}{Chandler, AZ}
+      \resumeItemListStart
+        \resumeItem{Developed a Python based automation script to parse and calculate MTBFIT data from quarterly Reliability
+        Monitoring Reports reducing manual report creation time from 2 weeks to 10 minutes. Featuring: Directory file selection, Precise data separation and requisition,
+        Streamlined JSON conversion for efficient storage, and Automatic file creation timestamping.}
+        \resumeItem{Operated and managed advanced burn-in systems: ELES smART, ELES TTS1, ELES MTx, MCC-LC2, and
+        AEHR Max2/Max3 ovens, achieving a 15\% decrease in failures during product testings over 1 year.}
+        \resumeItem{Created an AEHR to MCC-LC2 Python based burn-in program conversion script improving workflow
+        efficiency, decreasing time between tests, and increasing cross-platform compatibility between burn-in systems.}
+        \resumeItem{Researched, submitted, and presented 30+ Burn-In Specification reports and solely released 10+ Product and Package Qualification reports 
+        for Microchip's two most profitable and important business units: Data Center Solutions (DCS) and Communications Business Unit (CBU).}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Software Engineering Intern}{May 2021 -- May 2023}
+      {IBM Corporation}{Tucson, AZ}
+      \resumeItemListStart
+        \resumeItem{Assisted in development of a diagnostic health evaluation bash script deployed to over 4,000
+        XIV/A9000/R flash storage systems to identify potential failing BBU power supplies.}
+        \resumeItem{Implemented the bash script over remote connection with customers negating the need for over 10,000 physical BBU power supplies
+        replacements for over 600 companies worldwide, saving critical information from being lost and preventing millions of dollars in down time from occuring.}
+        \resumeItem{Diagnosed technical issues and supported clients in resolving issues related to XIV/A9000/R
+        flash storage servers.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {I.T. Support Volunteer and Guide} {Summers 2019 - 2023}
+      {Arizona Museum of Natural History}{Mesa, AZ}
+      \resumeItemListStart
+        \resumeItem{Upgraded legacy computers with new hardware and upgraded software to Office 365 for enhanced efficiency.}
+        \resumeItem{Conducted I.T. training to educate volunteers on new applicable software like Zoom, Teams, and Office 365 suite.}
+        \resumeItem{Implemented and managed the technology infastructure for virtual tours, webinars, and online educational programs using Zoom and WebEx.}
+        \resumeItem{Set up automated systems for inventory management and scheduling using Microsoft Power Automate.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Let's Boil a Computer, Again! - Hardware and Software Team Lead} }{Aug. 2022 -- May 2023}
+          \resumeSubSubheading{Senior Design Capstone @ The University of Arizona for Microsoft Corporation}{Tucson, AZ}
+          \resumeItemListStart
+            \resumeItem{Prototyped and constructed a Two-Phase Immersion Cooling server for Microsoft using FC-72 Fluorinert.}
+            \resumeItem{Designed and coded a Graphical User Interface using Tkinter in Python for system and sensor control.}
+            \resumeItem{Implemented and integrated a multi-threaded dynamically updating dual-axis graph using Matplotlib onto the Python GUI from realtime C++ embedded sensor data.}
+            \resumeItem{Directed total system design total system wiring, and total system construction by researching best practices and documenting all decisions made into a public Codex repository available for view.}
+            \resumeItem{Received Best Design, Project, and Presentation popular vote during Craig M. Berge Senior Capstone Design Day.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Relevant Coursework and Technical Skills}
+ \begin{itemize}[leftmargin=0.22in, label={}]
+    \small{\item{
+      \textbf{Courses}{: Computer Architecture and Design I \& II, Advanced Object Oriented Software I \& II, 
+      Microprocessor Organization,  Computational Techniques, Systems Engineer Process, Semiconductor Processing, Digital VLSI Design} \\
+     \textbf{Languages}{: Python, C/C++, Java, JavaScript, HTML/CSS, R, MatLab} \\
+     \textbf{Developer Tools}{: Git, Github, VSCode, PyCharm, Eclipse, Altium, LaTeX} \\
+     \textbf{Libraries}{: Pandas, NumPy, Matplotlib, Tkinter, Plotly, OpenCV, Beautiful Soup}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
