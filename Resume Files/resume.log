@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.16)  17 JUL 2024 00:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.16)  25 JUL 2024 17:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Jesus/Documents/GitHub/My-Resume/Tex Files/resume.tex"
-(c:/Users/Jesus/Documents/GitHub/My-Resume/Tex Files/resume.tex
+**"c:/Users/Jesus/Documents/GitHub/My-Resume/Resume Files/resume.tex"
+(c:/Users/Jesus/Documents/GitHub/My-Resume/Resume Files/resume.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
 (Y:\MiKTeX\tex/latex/base\article.cls
@@ -320,14 +320,14 @@ Package rerunfilecheck Info: File `resume.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  10725 strings out of 473904
- 165416 string characters out of 5743015
+ 165443 string characters out of 5743015
  1957908 words of memory out of 5000000
  33467 multiletter control sequences out of 15000+600000
  563661 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,350b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,353b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <Y:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><Y:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><Y:/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><Y:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><Y:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><Y:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><Y:/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (1 page, 110042 bytes).
+Output written on resume.pdf (1 page, 110393 bytes).
 PDF statistics:
  66 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)

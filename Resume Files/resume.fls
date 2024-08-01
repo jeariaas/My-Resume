@@ -1,6 +1,6 @@
-PWD c:\Users\Jesus\Documents\GitHub\My-Resume\Tex Files
+PWD c:\Users\Jesus\Documents\GitHub\My-Resume\Resume Files
 INPUT C:\Users\Jesus\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Jesus\Documents\GitHub\My-Resume\Tex Files\resume.tex
+INPUT c:\Users\Jesus\Documents\GitHub\My-Resume\Resume Files\resume.tex
 OUTPUT resume.log
 INPUT Y:\MiKTeX\tex\latex\base\article.cls
 INPUT Y:\MiKTeX\tex\latex\base\article.cls
