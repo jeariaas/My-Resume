@@ -1,9 +1,8 @@
 
 %-------------------------
 % Resume in Latex
-% Author : Jake Gutierrez
+% Author : Jesus Arias
 % Based off of: https://github.com/sb2nov/resume
-% License : MIT
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
@@ -28,10 +27,10 @@
 % \usepackage[sfdefault]{roboto}
 % \usepackage[sfdefault]{noto-sans}
 % \usepackage[default]{sourcesanspro}
-
+% \usepackage[sfdefault]{carlito}
 % serif
 % \usepackage{CormorantGaramond}
-% \usepackage{charter}
+\usepackage{charter}
 
 
 \pagestyle{fancy}
@@ -55,7 +54,7 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
+  \vspace{-10pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
@@ -107,10 +106,10 @@
 \begin{document}
 
 \begin{center}
-    \textbf{\Huge \scshape Jesus Arias} \\ \vspace{1pt}
-    \small 480-939-1780 $|$ \href{mailto:x@x.com}{\underline{jeariaas@gmail.com}} $|$ 
-    \href{https://linkedin.com/in/...}{\underline{www.linkedin.com/in/arias-jesus}} $|$
-    \href{https://github.com/...}{\underline{www.github.com/jeariaas}}
+    \textbf{\Huge \scshape Jesus Arias} \\ \vspace{2pt}
+    \small 480-939-1780 $|$ \href{mailto:jeariaas@gmail.com}{\underline{jeariaas@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/arias-jesus}{\underline{linkedin.com/in/arias-jesus}} $|$
+    \href{https://github.com/jeariaas}{\underline{github.com/jeariaas}}
 \end{center}
 
 
@@ -121,7 +120,13 @@
       {The University of Arizona}{Aug. 2019 -- May 2023}
       {Bachelor of Science in Electrical and Computer Engineering, Minor in Mathematics}{Tucson, AZ}
   \resumeSubHeadingListEnd
-
+   \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+      \textbf{Courses}{: Computer Architecture and Design I \& II, Advanced Object Oriented Software I \& II, Data Structures \& Algorithms, Embedded Systems Design,
+      Microprocessor Organization, Computational Techniques, Circuit Analysis, Systems Engineering Process, Semiconductor Processing, Digital VLSI Design, Computer Networking} \\
+    }}
+ \end{itemize}
+  
 
 %-----------EXPERIENCE-----------
 \section{Experience}
@@ -130,18 +135,15 @@
       {Software \& Reliability Engineer}{Jun. 2023 -- Present}
       {Microchip Technology Inc.}{Chandler, AZ}
       \resumeItemListStart
-        \resumeItem{Developed a Python based automation script to parse and calculate MTBFIT data from quarterly Reliability
-        Monitoring Reports reducing manual report creation time from 2 weeks to 10 minutes. 
-        \newline Featuring: directory file selection, precise data separation and requisition,
-        streamlined JSON conversion for efficient storage, and automatic file creation timestamping.}
-        \resumeItem{Implemented a version controlled, check-out enabled, access controled file storage system for burn-in programs and 
-        oven patterns using Microsoft Sharepoint and Power Automate. Migrated all the data from vulnerable network drives to a secure and user restricted document library never used before by my department}
-        \resumeItem{Operated and managed advanced burn-in systems: ELES smART, ELES TTS1, ELES MTx, MCC-LC2, and
-        AEHR Max2/Max3 ovens, achieving a 15\% decrease in failures during product testings over 1 year.}
-        \resumeItem{Created an AEHR to MCC-LC2 Python based burn-in program conversion script improving workflow
-        efficiency, decreasing time between tests, and increasing cross-platform compatibility between burn-in systems.}
-        \resumeItem{Researched, submitted, and presented 30+ Burn-In Specification reports and solely released 10+ Product and Package Qualification reports 
-        for Microchip's two most profitable and important business units: Data Center Solutions (DCS) and Communications Business Unit (CBU).}
+        \resumeItem{Developed a Python script automating MTBFIT data parsing, reducing creation time from 2 weeks to 10 minutes.}
+        \resumeItem{Implemented a file storage system migrating burn-in recipes to a document library used by all MCHP sites.}
+        \resumeItem{Directed the development and implementation of 3D printing capabilities in the Reliability department.}
+        \resumeItem{Supported Reliability sub-departments in modeling and printing high-temperature withstanding test items}
+        \resumeItem{Operated advanced Burn-In systems achieving a 15\% decrease in handling failures during qualification.
+        \newline - ELES smART, ELES TTS1, ELES MTx, MCC-LC2, and AEHR Max2/Max3 ovens,}
+        \resumeItem{Created a Python script converting AEHR Burn-In programs to MCC-LC2 Burn-In programs}
+        \resumeItem{Researched, submitted, and presented 30+ Burn-In Specification reports to engineers and customers.}
+        \resumeItem{Released 10+ Product and Package Qualification reports for DCS, CBU, MPD, MCU08 and MCU16.}
       \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
@@ -158,24 +160,13 @@
       {Software Engineering Intern}{May 2021 -- May 2023}
       {IBM Corporation}{Tucson, AZ}
       \resumeItemListStart
-        \resumeItem{Assisted in development of a diagnostic health evaluation bash script deployed to over 4,000
-        XIV/A9000/R flash storage systems to identify potential failing BBU power supplies negating the need for over 10,000 replacement for over 600 companies.}
-        \resumeItem{Diagnosed technical issues and supported clients in resolving issues related to XIV/A9000/R
-        flash storage servers.}
+        \resumeItem{Assisted in development of a diagnostic server-health evaluation bash script}
+        \resumeItem{Deployed code to over 4,000 XIV/A9000/R flash storage systems identifying potential failing BBU power supplies.
+        \newline - Negated over 10,000 potential replacements for over 600 companies.}
+        \resumeItem{Contributed as a software engineer in an Agile environment, improving existing software and unit testing.}
+        \resumeItem{Diagnosed technical issues and supported clients in resolving issues related to XIV/A9000/R storage servers.}
     \resumeItemListEnd
-
-    \resumeSubheading
-      {I.T. Support Volunteer and Guide} {Summers 2019 -- 2023}
-      {Arizona Museum of Natural History}{Mesa, AZ}
-      \resumeItemListStart
-        \resumeItem{Upgraded legacy computers with new hardware and upgraded software to Office 365 for enhanced efficiency.}
-        \resumeItem{Conducted I.T. training to educate volunteers on new applicable software like Zoom, Teams, and Office 365 suite.}
-        \resumeItem{Implemented and managed the technology infastructure for virtual tours, webinars, and online educational programs using Zoom and WebEx.}
-        \resumeItem{Set up automated systems for inventory management and scheduling using Microsoft Power Automate.}
-      \resumeItemListEnd
-
   \resumeSubHeadingListEnd
-
 
 %-----------PROJECTS-----------
 \section{Projects}
@@ -190,14 +181,14 @@
             \resumeItem{Directed total system design total system wiring, and total system construction by researching best practices and documenting all decisions made into a public Codex repository available for view.}
             \resumeItem{Received Best Design, Project, and Presentation popular vote during Craig M. Berge Senior Capstone Design Day.}
           \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Let's Boil a Computer, Again! - Hardware and Software Team Lead} }{Aug. 2022 -- May 2023}{}
     \resumeSubHeadingListEnd
 
 %-----------PROGRAMMING SKILLS-----------
 \section{Relevant Coursework and Technical Skills}
  \begin{itemize}[leftmargin=0.22in, label={}]
     \small{\item{
-      \textbf{Courses}{: Computer Architecture and Design I \& II, Advanced Object Oriented Software I \& II, 
-      Microprocessor Organization,  Computational Techniques, Systems Engineer Process, Semiconductor Processing, Digital VLSI Design} \\
      \textbf{Languages}{: Python, C/C++, Java, JavaScript, HTML/CSS, R, MatLab} \\
      \textbf{Developer Tools}{: Git, Github, VSCode, PyCharm, Eclipse, Altium, LaTeX, Microsoft Power Automate \& Sharepoint} \\
     }}

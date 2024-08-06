@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.16)  31 JUL 2024 21:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.7.16)  6 AUG 2024 00:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -234,31 +234,37 @@ Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
 \TX@delta=\dimen159
 \TX@cols=\count284
 \TX@ftn=\toks24
-) (Y:\MiKTeX\tex/generic/pdftex\glyphtounicode.tex) (Y:\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+) (Y:\MiKTeX\tex/generic/pdftex\glyphtounicode.tex) (Y:\MiKTeX\tex/latex/psnfss\charter.sty
+Package: charter 2020/03/25 PSNFSS-v9.3 (P.Dyballa) 
+)
+LaTeX Font Info:    Trying to load font information for OT1+bch on input line 106.
+ (Y:\MiKTeX\tex/latex/psnfss\ot1bch.fd
+File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
+) (Y:\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count285
 \l__pdf_internal_box=\box56
 ) (resume.aux)
 \openout1 = `resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 107.
-LaTeX Font Info:    ... okay on input line 107.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
  (Y:\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count286
@@ -273,30 +279,25 @@ LaTeX Font Info:    ... okay on input line 107.
 \makeMPintoPDFobject=\count291
 \everyMPtoPDFconversion=\toks26
 )
-Package hyperref Info: Link coloring OFF on input line 107.
+Package hyperref Info: Link coloring OFF on input line 106.
  (resume.out) (resume.out)
 \@outlinefile=\write3
 \openout3 = `resume.out'.
 
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 110.
-
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 111.
+(Font)              <7> on input line 110.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 111.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 111.
-(Y:\MiKTeX\tex/latex/base\ulasy.fd
+(Font)              <5> on input line 110.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 110.
+ (Y:\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 122.
+(Font)              <10.95> on input line 121.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 122.
+(Font)              <8> on input line 121.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 122.
+(Font)              <6> on input line 121.
 
 
 
@@ -306,30 +307,26 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-{C:/Users/Jesus/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (resume.aux)
+{C:/Users/Jesus/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{Y:/MiKTeX/fonts/enc/dvips/base/8r.enc}] (resume.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
  ***********
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: 37EBB3DD73088DF5670BBC23202BAE30;519.
  ) 
 Here is how much of TeX's memory you used:
- 10725 strings out of 473904
- 165443 string characters out of 5743015
- 1957908 words of memory out of 5000000
- 33467 multiletter control sequences out of 15000+600000
- 563661 words of font info for 58 fonts, out of 8000000 for 9000
+ 10793 strings out of 473904
+ 166513 string characters out of 5743015
+ 1953908 words of memory out of 5000000
+ 33517 multiletter control sequences out of 15000+600000
+ 579859 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,353b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<Y:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><Y:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><Y:/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><Y:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><Y:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><Y:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><Y:/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (1 page, 110404 bytes).
+<Y:/MiKTeX/fonts/type1/bitstrea/charter/bchb8a.pfb><Y:/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><Y:/MiKTeX/fonts/type1/bitstrea/charter/bchri8a.pfb><Y:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><Y:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
+Output written on resume.pdf (1 page, 72842 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
+ 57 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
